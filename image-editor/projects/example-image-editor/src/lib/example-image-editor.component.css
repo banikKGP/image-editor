@@ -1,0 +1,377 @@
+@import "icons/style.css";
+span[class^="symbol-"],span[class*="symbol-"],i[class^="symbol-"],i[class*="symbol-"] {
+	font-family:'shared-module' !important;
+}
+.document-tagging {
+	font-family:"open_sansregular",sans-serif;
+	font-size:16px;
+	color:#525356;
+}
+.document-tagging span[class^="path"],.document-tagging span[class*="path"],.document-tagging i[class^="path"],.document-tagging i[class*="path"] {
+	display:inline-block;
+	font-family:'shared-module' !important;
+	line-height:1;
+}
+.document-tagging a:focus,.document-tagging a:active,.document-tagging button:active,.document-tagging button:focus {
+	outline:1px solid #8cccff;
+}
+.document-tagging .modal-xl {
+	width:900px;
+}
+.document-tagging .modal-sm {
+	width:480px;
+}
+.document-tagging .visuallyhidden {
+	border:0;
+	clip:rect(0 0 0 0);
+	height:1px;
+	margin:-1px;
+	overflow:hidden;
+	padding:0;
+	position:absolute;
+	width:1px;
+}
+.document-tagging .text-medium-blue {
+	color:#2196f3;
+}
+.icon {
+	display:inline-block;
+	vertical-align:-10%;
+}
+.icon-2x {
+	font-size:2em;
+}
+.icon-3x {
+	font-size:3em;
+}
+.document-tagging .clear {
+	clear:both;
+}
+.document-tagging .form-control {
+	border-color:#d2d2d2;
+	border-radius:5px;
+	color:#525356;
+}
+.document-tagging input.form-control {
+	height:35px;
+}
+.document-tagging .search-equipment .form-control {
+	padding-left:30px;
+}
+.document-tagging h5 {
+	font-size:18px;
+	font-weight:normal;
+	font-family:"open_sanssemibold",sans-serif;
+	color:#252627;
+}
+.document-tagging h6 {
+	font-size:16px;
+	font-family:"open_sanssemibold",sans-serif;
+	font-weight:normal;
+}
+.document-tagging .modal-content {
+	border-radius:8px;
+	box-shadow:0 3px 20px #525356;
+}
+.document-tagging .modal-header {
+	padding:20px;
+	border:0;
+}
+.document-tagging .modal-header h4.modal-title {
+	font-size:24px;
+	color:#252627;
+	font-weight:normal;
+	font-family:"open_sanssemibold",sans-serif;
+}
+.document-tagging .modal-header h4.modal-title .btn-back {
+	margin:0px 10px 0 0px;
+	padding:6px 2px;
+	color:#a4a4a4;
+}
+.document-tagging .modal-body {
+	position:relative;
+	padding:5px 20px 20px 20px;
+	overflow:visible;
+}
+.document-tagging .btn-default {
+	text-shadow:0 1px 0 #fff;
+	border-color:#ccc;
+	background:#eee;
+}
+.document-tagging .modal-footer .btn {
+	border-radius:5px;
+	padding:9px 20px;
+}
+.document-tagging .btn.btn-default,.document-tagging .btn.btn-primary {
+	border-radius:5px;
+	padding-top:7px;
+	padding-bottom:7px;
+}
+.document-tagging .btn-primary {
+	background:#006eb6;
+}
+.document-tagging .modal-footer {
+	border:0;
+	margin-top:0;
+}
+.document-tagging .modal-footer .total-files-count {
+	font-size:16px;
+	color:#525356;
+	line-height: 50px;
+}
+.document-tagging .modal-body .add-source-dropdown {
+    margin: 0;
+    padding-bottom: 5px;
+    border-radius: 4px;
+}
+.document-tagging .modal-body .add-source-dropdown li {
+    display: block;
+    text-align: left;
+    margin: 0;
+}
+.document-tagging .modal-body .add-source-dropdown li a {
+    cursor: pointer;
+    color: #2196f3;
+    margin: 0;
+    padding: 8px 20px 8px 18px;
+}
+.document-tagging .modal-body .add-source-dropdown li a .icon {
+    margin-right: 10px;
+    color: #2196f3;
+    font-size: 18px;
+}
+.document-tagging .modal-body .add-source-dropdown li a:hover, .document-tagging .modal-body .add-source-dropdown li a:focus {
+	background: #f5f5f5;
+	color: #262626; 
+}
+.document-tagging .modal-body .add-source-dropdown li a:hover .icon, .document-tagging .modal-body .add-source-dropdown li a:focus .icon {
+	color: #262626; 
+}
+/*======== edit photo modal ========*/
+.edit-photo-modal span[class^="path"],.edit-photo-modal span[class*="path"],.edit-photo-modal i[class^="path"],.edit-photo-modal i[class*="path"] {
+	display:inline-block;
+	font-family:'doc-tagging' !important;
+	line-height:1;
+}
+.edit-photo-modal .modal-xl {
+	width:900px;
+}
+.edit-photo-modal .modal-footer {
+	margin-top:0;
+	border:0;
+}
+.edit-photo-modal .modal-header {
+	border:0;
+}
+.edit-photo-modal .modal-header .close .icon {
+	font-size:15px;
+}
+.edit-photo-modal .modal-body {
+	position:relative;
+	overflow:hidden !important;
+	padding:5px 20px 0 20px;
+}
+.edit-photo-modal .modal-body a {
+	text-overflow:inherit;
+}
+.edit-photo-modal .modal-body .annotate-pic {
+	text-align:center;
+	position:relative;
+	z-index:1;
+}
+.edit-photo-modal .modal-body .annotate-pic .main-pic-area {
+	-moz-box-shadow:0 60px 50px -22px rgba(0,0,0,0.8) inset,0 -55px 35px -40px rgba(0,0,0,0.8) inset;
+	-webkit-box-shadow:0 60px 50px -22px rgba(0,0,0,0.8) inset,0 -55px 35px -40px rgba(0,0,0,0.8) inset;
+	box-shadow:0 60px 50px -22px rgba(0,0,0,0.8) inset,0 -55px 35px -40px rgba(0,0,0,0.8) inset;
+}
+.edit-photo-modal .modal-body .annotate-pic .main-pic-area img {
+	max-width:100%;
+	max-height:100%;
+	position:relative;
+	z-index:-2;
+}
+.edit-photo-modal .modal-body .annotate-pic .flexslider {
+	position:absolute;
+
+
+	bottom:-2px;
+	height:65px;
+	left:0;
+	right:0;
+	margin-bottom:0;
+	text-align:center;
+	background:none;
+	border:0;
+}
+.edit-photo-modal .modal-body .annotate-pic .flexslider .flex-viewport {
+	display:inline-block;
+}
+.edit-photo-modal .modal-body .annotate-pic .flexslider .slides img {
+	cursor:pointer;
+}
+.edit-photo-modal .modal-body .attributes-form {
+	width:360px;
+	background:rgba(0,0,0,0.7);
+	padding:10px;
+	top:0px;
+	bottom:0px;
+	position:absolute;
+	right:0;
+	z-index:2;
+}
+.edit-photo-modal .modal-body .attributes-form h3 {
+	color:#ffffff;
+	font-weight:normal;
+	margin-bottom:20px;
+}
+.edit-photo-modal .modal-body .attributes-form label {
+	color:#ffffff;
+	font-weight:normal;
+}
+.edit-photo-modal .modal-body .attributes-form .hide-attributes-btn {
+	position:absolute;
+	left:-20px;
+	background:rgba(0,0,0,0.9);
+	top:40px;
+}
+.edit-photo-modal .modal-body .attributes-form .hide-attributes-btn .btn {
+	background:#4c5154;
+	padding:3px;
+	color:#d2d2d2;
+}
+.edit-photo-modal .modal-body .photo-editor-body {
+	position:relative;
+	overflow:hidden;
+}
+.edit-photo-modal .modal-body .color-picker-container {
+	display:none;
+}
+.edit-photo-modal .annotate-toolbar {
+	position:absolute;
+	top:0;
+	right:0;
+	left:0;
+	border-radius:5px;
+	z-index:2;
+	text-align:center;
+	padding:10px 0 15px 0;
+	background:-moz-linear-gradient(top,black 0%,rgba(0,0,0,0.93) 12%,rgba(0,0,0,0.79) 27%,rgba(0,0,0,0.21) 75%,rgba(0,0,0,0.09) 88%,rgba(0,0,0,0.01) 100%);
+	background:-webkit-linear-gradient(top,black 0%,rgba(0,0,0,0.93) 12%,rgba(0,0,0,0.79) 27%,rgba(0,0,0,0.21) 75%,rgba(0,0,0,0.09) 88%,rgba(0,0,0,0.01) 100%);
+	background:linear-gradient(to bottom,black 0%,rgba(0,0,0,0.93) 12%,rgba(0,0,0,0.79) 27%,rgba(0,0,0,0.21) 75%,rgba(0,0,0,0.09) 88%,rgba(0,0,0,0.01) 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#000000',endColorstr='#03000000',GradientType=0 );
+}
+.edit-photo-modal .annotate-toolbar ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+}
+.edit-photo-modal .annotate-toolbar ul li {
+	display:inline-block;
+	margin:0 5px;
+}
+.edit-photo-modal .annotate-toolbar ul li .btn-tool {
+	padding:7px 11px;
+	text-decoration:none;
+	color:#ffffff;
+	display:block;
+	margin:0;
+	cursor:pointer;
+	background:transparent;
+	border:0;
+}
+.edit-photo-modal .annotate-toolbar ul li .btn-tool:focus {
+	background: rgba(0, 0, 0, 0.5);
+	outline: 1px solid #8cccff; 
+}
+.edit-photo-modal .annotate-toolbar ul li .btn-tool:hover {
+	background: rgba(0, 0, 0, 0.5);
+	outline: 0; 
+}
+.edit-photo-modal .annotate-toolbar ul li .btn-tool.selected {
+	background: rgba(0, 0, 0, 0.5);
+	outline: 0; 
+}
+.edit-photo-modal .annotate-toolbar ul li:last-child {
+	border:0;
+}
+.edit-photo-modal .annotate-toolbar ul li .popover {
+	width:286px;
+}
+.edit-photo-modal .annotate-toolbar ul li .popover .popover-content {
+	padding:0;
+}
+.edit-photo-modal .annotate-toolbar ul li .popover .popover-content .color-picker-content h6 {
+	font-size:14px;
+	margin:10px;
+}
+.edit-photo-modal .annotate-toolbar ul li .popover .popover-content .color-picker-content .color-list {
+	padding:5px 5px 10px 5px;
+	border-bottom:1px solid #d2d2d2;
+	overflow:hidden;
+}
+.edit-photo-modal .annotate-toolbar ul li .popover .popover-content .color-picker-content .color-list ul li {
+	text-align:center;
+	float:left;
+	border-radius:50%;
+	border:4px solid #ffffff;
+	display:block;
+}
+.edit-photo-modal .annotate-toolbar ul li .popover .popover-content .color-picker-content .color-list ul li .color-box {
+	width:15px;
+	height:15px;
+	display:block;
+	border-radius:50%;
+	border:none;
+	cursor:pointer;
+	box-shadow:0px 2px 2px #4c5154 inset;
+	overflow:hidden;
+}
+.edit-photo-modal .annotate-toolbar ul li .popover .popover-content .color-picker-content .color-list ul li.active {
+	box-shadow:0px 1px 6px #a4a4a4;
+}
+.edit-photo-modal .annotate-toolbar ul li .popover .popover-content .color-picker-content .color-list ul li.active .color-box:focus {
+	outline:0;
+}
+.edit-photo-modal .annotate-toolbar ul li .popover .popover-content .color-picker-content .thickness-selector {
+	padding:0 10px 20px 10px;
+}
+.edit-photo-modal .annotate-toolbar ul li .popover .popover-content .color-picker-content .thickness-selector .ng5-slider .ng5-slider-pointer {
+	width:15px;
+	height:30px;
+	border:1px solid #d2d2d2;
+	background-color:#ffffff;
+}
+.edit-photo-modal .annotate-toolbar ul li .popover .popover-content .color-picker-content .thickness-selector .ng5-slider .ng5-slider-pointer::after {
+	display:none;
+}
+.edit-photo-modal .annotate-toolbar.attributes-tool {
+	right:5px;
+	text-align:right;
+	left:auto;
+	z-index:3;
+	background:none;
+}
+.edit-photo-modal .full-screen-btn-box {
+	width:40px;
+	height:40px;
+	left:0;
+	bottom:0;
+	z-index:2;
+	position:absolute;
+}
+.edit-photo-modal .full-screen-btn-box .btn-full-screen {
+	background:rgba(0,0,0,0.3);
+	width:40px;
+	height:40px;
+	cursor:pointer;
+	outline:none;
+	color:#ffffff;
+	border:0;
+	display:block;
+	vertical-align:middle;
+	text-align:center;
+	padding:0;
+}
+.edit-photo-modal .full-screen-btn-box .btn-full-screen:focus,.edit-photo-modal .full-screen-btn-box .btn-full-screen:hover {
+	background: rgba(0,0,0,0.5);
+}

@@ -1,0 +1,133 @@
+<div class="modal fade edit-photo-modal document-tagging" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="false">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon symbol-cross"></i></button>
+            <h4 class="modal-title">Edit photo</h4>
+            </div>
+            <div class="modal-body">
+            	<div class="photo-editor-body">
+                    <div class="annotate-pic">
+						<div class="main-pic-area">
+                        	<img src="../../../theme/doc-tagging/sample-image/sample-pic-big.jpg" alt="" />
+                        </div>
+                        <!-- <div class="flexslider carousel">
+                            <ul class="slides">
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_cheesecake_brownie.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_lemon.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_donut.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_caramel.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_cheesecake_brownie.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_lemon.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_donut.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_caramel.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_cheesecake_brownie.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_lemon.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_donut.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_caramel.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_cheesecake_brownie.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_lemon.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_donut.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_caramel.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_cheesecake_brownie.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_lemon.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_donut.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_caramel.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_cheesecake_brownie.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_lemon.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_donut.jpg" /> </li>
+                                <li> <img src="../../../theme/doc-tagging/sample-image/img/kitchen_adventurer_caramel.jpg" /> </li>
+                            </ul>
+                        </div> -->
+                    </div>
+                    <div class="annotate-toolbar">
+                        <ul class="has-tooltip">
+                            <li><button data-toggle="tooltip" data-placement="top" title="Freehand line" class="btn-tool"><i class="icon symbol-tool-pencil icon-lg"></i><span class="visuallyhidden">Freehand line</span></button></li>
+                            <li class="selected"><button data-toggle="tooltip" data-placement="top" title="Open line menu" class="btn-tool"><i class="icon symbol-tool-line icon-lg"></i><span class="visuallyhidden">Open line menu</span></button></li>
+                            <li><button data-toggle="tooltip" data-placement="top" title="Draw rectangle" class="btn-tool"><i class="icon symbol-tool-square icon-lg"></i><span class="visuallyhidden">Draw rectangle</span></button></li>
+                            <li><button data-toggle="tooltip" data-placement="top" title="Draw ellipse" class="btn-tool"><i class="icon symbol-tool-circle icon-lg"></i><span class="visuallyhidden">Draw ellipse</span></button></li>
+                            <li><button data-toggle="tooltip" data-placement="top" title="Add a text" class="btn-tool"><i class="icon symbol-tool-text icon-lg"></i><span class="visuallyhidden">Add a text</span></button></li>
+                            <li><button data-toggle="tooltip" data-placement="top" title="Settings" id="setting-popover" class="btn-tool"><i class="icon symbol-settings icon-lg"></i><span class="visuallyhidden">Settings</span></button></li>
+                            <li><button data-toggle="tooltip" data-placement="top" title="Rotate" class="btn-tool"><i class="icon symbol-rotate icon-lg"></i><span class="visuallyhidden">Rotate</span></button></li>
+                        </ul>
+                    </div>
+                    <div class="annotate-toolbar attributes-tool">
+                        <ul class="has-tooltip">
+                            <li class="dropdown" data-toggle="tooltip" data-placement="top" title="More"><button data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" class="btn-tool"><i class="icon symbol-more icon-lg"></i><span class="visuallyhidden">Freehand line</span></button>
+                                <ul class="dropdown-menu add-source-dropdown pull-right">
+                                    <li><a href="javascript:void(0);" role="button"><i class="icon symbol-skysite-gallery"></i> Add to SKYSITE</a></li>
+                                    <li><a href="javascript:void(0);" role="button"><i class="icon icon-trash"></i> Remove</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="full-screen-btn-box has-tooltip">
+                        <button data-toggle="tooltip" data-placement="top" title="Full screen" class="btn-full-screen"><i class="icon symbol-expand icon-lg"></i><span class="visuallyhidden">Draw rectangle</span></button>
+                    </div>
+                    <div id="color-picker" class="color-picker-container" aria-labelledby="setting-popover">
+                        <div class="color-picker-content">
+                            <h6>
+                                Pick a color
+                            </h6>
+                            <div class="color-list">
+                                <ul>
+                                    <li>
+                                        <button type="button" role="button" data-toggle="tooltip" title="Pick color blue" class="color-box" style="background-color:#6DA6E8;"><span class="visuallyhidden">Blue</span></button>
+                                    </li>
+                                    <li>
+                                        <button type="button" role="button" data-toggle="tooltip" title="Pick color green" class="color-box" style="background-color:#78BFA3;"><span class="visuallyhidden">Green</span></button>
+                                    </li>
+                                    <li class="active">
+                                        <button type="button" role="button" data-toggle="tooltip" title="Pick color yellow" class="color-box" style="background-color:#F9D948;"><span class="visuallyhidden">Yellow</span></button>
+                                    </li>
+                                    <li>
+                                        <button type="button" role="button" data-toggle="tooltip" title="Pick color orange" class="color-box" style="background-color:#E58A3B;"><span class="visuallyhidden">Orange</span></button>
+                                    </li>
+                                    <li>
+                                        <button type="button" role="button" data-toggle="tooltip" title="Pick color red" class="color-box" style="background-color:#F66C6C;"><span class="visuallyhidden">Red</span></button>
+                                    </li>
+                                    <li>
+                                        <button type="button" role="button" data-toggle="tooltip" title="Pick color purple" class="color-box" style="background-color:#6C59C9;"><span class="visuallyhidden">Purple</span></button>
+                                    </li>
+                                    <li>
+                                        <button type="button" role="button" data-toggle="tooltip" title="Pick color black" class="color-box" style="background-color:#000000;"><span class="visuallyhidden">Black</span></button>
+                                    </li>
+                                    <li>
+                                        <button type="button" role="button" data-toggle="tooltip" title="Pick color white" class="color-box" style="background-color:#FFFFFF;"><span class="visuallyhidden">White</span></button>
+                                    </li>
+                                </ul>
+                                <div class="clear"></div>
+                            </div>
+                            <h6>Thickness</h6>
+                            <div class="thickness-selector">
+                                <input type="range" min="1" max="100" value="50" class="custom-range">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="attributes-form" style="right:-380px;">
+                        <div class="hide-attributes-btn">
+                            <button type="button" class="btn"><i class="icon icon-arrow-right"></i></button>
+                        </div>
+                        <h3>Add attributes</h3>
+                        <div class="form-group">
+                            <label>Building</label>
+                            <input type="text" class="form-control" placeholder="Building">
+                        </div>
+                        <div class="form-group">
+                            <label>Level</label>
+                            <input type="text" class="form-control" placeholder="Level">
+                        </div>
+                        <div class="form-group">
+                            <label>Description</label>
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-primary">Save</button>
+            </div>
+        </div>
+    </div>
+</div>

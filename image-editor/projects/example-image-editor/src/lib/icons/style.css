@@ -1,0 +1,258 @@
+@font-face {
+  font-family: 'shared-module';
+  src:  url('fonts/shared-module.eot?kmfwwn');
+  src:  url('fonts/shared-module.eot?kmfwwn#iefix') format('embedded-opentype'),
+    url('fonts/shared-module.ttf?kmfwwn') format('truetype'),
+    url('fonts/shared-module.woff?kmfwwn') format('woff'),
+    url('fonts/shared-module.svg?kmfwwn#shared-module') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="symbol-"], [class*=" symbol-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'shared-module' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.symbol-search:before {
+  content: "\e93a";
+}
+.symbol-folder .path1:before {
+  content: "\e928";
+  color: rgb(255, 226, 169);
+}
+.symbol-folder .path2:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgb(232, 169, 45);
+}
+.symbol-folder .path3:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgb(255, 226, 169);
+}
+.symbol-folder .path4:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgb(232, 169, 45);
+}
+.symbol-back:before {
+  content: "\e917";
+}
+.symbol-cross:before {
+  content: "\e91c";
+}
+.symbol-pdf .path1:before {
+  content: "\e925";
+  color: rgb(242, 109, 109);
+}
+.symbol-pdf .path2:before {
+  content: "\e926";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.symbol-gallery:before {
+  content: "\e903";
+}
+.symbol-expand:before {
+  content: "\e954";
+}
+.symbol-rotate:before {
+  content: "\e90e";
+}
+.symbol-settings:before {
+  content: "\e90f";
+}
+.symbol-tool-circle:before {
+  content: "\e910";
+}
+.symbol-tool-line:before {
+  content: "\e92d";
+}
+.symbol-tool-pencil:before {
+  content: "\e92e";
+}
+.symbol-tool-square:before {
+  content: "\e92f";
+}
+.symbol-tool-text:before {
+  content: "\e933";
+}
+.symbol-trash:before {
+  content: "\e930";
+}
+.symbol-skysite-gallery:before {
+  content: "\e92c";
+}
+.symbol-more:before {
+  content: "\e93b";
+}
+.symbol-default-file:before {
+  content: "\e961";
+  color: #59beea;
+}
+.symbol-txt-file:before {
+  content: "\e983";
+  color: #aaa;
+}
+.symbol-gp-file:before {
+  content: "\e962";
+  color: #cca3cc;
+}
+.symbol-aiff-file:before {
+  content: "\e963";
+  color: #b3e55c;
+}
+.symbol-ai-file:before {
+  content: "\e964";
+  color: #e5a80e;
+}
+.symbol-amr-file:before {
+  content: "\e965";
+  color: #bfb300;
+}
+.symbol-audio1:before {
+  content: "\e966";
+  color: #b3e55c;
+}
+.symbol-bmp-file:before {
+  content: "\e967";
+  color: #26bcb8;
+}
+.symbol-caf-file:before {
+  content: "\e968";
+  color: #a93b00;
+}
+.symbol-csv-file:before {
+  content: "\e969";
+  color: #50755f;
+}
+.symbol-doc-file:before {
+  content: "\e96a";
+  color: #044b72;
+}
+.symbol-docx-file:before {
+  content: "\e96b";
+  color: #052e70;
+}
+.symbol-dwg-file:before {
+  content: "\e96c";
+  color: #ada29e;
+}
+.symbol-gif-file:before {
+  content: "\e96d";
+  color: #f46ba3;
+}
+.symbol-jpeg-file:before {
+  content: "\e96e";
+  color: #68a560;
+}
+.symbol-jpg-file:before {
+  content: "\e96f";
+  color: #a7cc7f;
+}
+.symbol-m3u8-file:before {
+  content: "\e970";
+  color: #2a637f;
+}
+.symbol-m4v-file:before {
+  content: "\e971";
+  color: #9127d6;
+}
+.symbol-mov-file .path1:before {
+  content: "\e972";
+  color: rgb(216, 202, 37);
+}
+.symbol-mov-file .path2:before {
+  content: "\e973";
+  margin-left: -0.73046875em;
+  color: rgb(216, 202, 37);
+}
+.symbol-mov-file .path3:before {
+  content: "\e974";
+  margin-left: -0.73046875em;
+  color: rgb(255, 255, 255);
+}
+.symbol-mov-file .path4:before {
+  content: "\e975";
+  margin-left: -0.73046875em;
+  color: rgb(255, 255, 255);
+}
+.symbol-mov-file .path5:before {
+  content: "\e976";
+  margin-left: -0.73046875em;
+  color: rgb(255, 255, 255);
+}
+.symbol-mp3-file:before {
+  content: "\e977";
+  color: #a90063;
+}
+.symbol-mp4-file:before {
+  content: "\e978";
+  color: #38e0e0;
+}
+.symbol-mpv-file:before {
+  content: "\e979";
+  color: #ffa071;
+}
+.symbol-pdf-file:before {
+  content: "\e97a";
+  color: #f26d6d;
+}
+.symbol-png-file:before {
+  content: "\e97b";
+  color: #bdbf5c;
+}
+.symbol-ppt-file:before {
+  content: "\e97c";
+  color: #ef8556;
+}
+.symbol-pptx-file:before {
+  content: "\e97d";
+  color: #f4641c;
+}
+.symbol-psd-file:before {
+  content: "\e97e";
+  color: #0d86d1;
+}
+.symbol-rtf-file:before {
+  content: "\e97f";
+  color: #6fcaef;
+}
+.symbol-sxc-file:before {
+  content: "\e980";
+  color: #3f6360;
+}
+.symbol-tiff-file:before {
+  content: "\e981";
+  color: #0280ad;
+}
+.symbol-tif-file:before {
+  content: "\e982";
+  color: #049eaa;
+}
+.symbol-wav-file:before {
+  content: "\e984";
+  color: #2c51a3;
+}
+.symbol-xls-file:before {
+  content: "\e985";
+  color: #408763;
+}
+.symbol-xlxs-file:before {
+  content: "\e986";
+  color: #216841;
+}
+.symbol-zip-file:before {
+  content: "\e987";
+}

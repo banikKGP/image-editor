@@ -1,0 +1,269 @@
+<div class="modal fade create-doc-tagging-modal document-tagging" tabindex="-1" role="dialog" aria-labelledby="createDocumentTaggingModal" aria-hidden="false">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+            <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true"><i class="icon symbol-cross"></i></button>
+            <h4 class="modal-title">Create tag</h4>
+            </div>
+            <div class="modal-body tag-custom-scroll">
+                <div class="tag-section">
+                    <div class="dropdown change-icon margin-bottom-15">
+                    <button type="button" class="btn active-icon bg-white" id="choose-icon" role="button" aria-haspopup="true" aria-expanded="false">
+                        <span class="text-green pull-left"><span class="icon-box"><i class="icon symbol-doc-tag"></i></span> <span class="selected-text">Change icon</span></span>
+                        <span class="caret pull-right"></span>
+                    </button>
+                    <div class="dropdown-menu pull-right" aria-labelledby="choose-icon">
+                        <div class="tag-icon-search-box">
+                            <div class="form-group search-equipment">
+                                <span class="search-icon-box"><i class="symbol-search icon"></i></span>
+                                <input type="text" class="form-control" placeholder="Search" aria-label="Search tag">
+                                <div class="search-icon-box search-reset-btn"><button type="button" class="btn btn-link"><i class="symbol-cross icon text-grey"></i></button></div>
+                            </div>
+                        </div>
+                        <ul>
+                            <li>
+                                <a href="javascript:void(0);"><span class="icon-box"><i class="icon symbol-fire-extinguisher"></i></span> Fire extinguisher</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><span class="icon-box"><i class="icon symbol-fire-hydrant"></i></span> Fire hydrants</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><span class="icon-box"><i class="icon symbol-lights"></i></span> Lights</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><span class="icon-box"><i class="icon symbol-security-camera"></i></span> Security camera</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><span class="icon-box"><i class="icon symbol-fire-extinguisher"></i></span> Fire extinguisher</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><span class="icon-box"><i class="icon symbol-fire-hydrant"></i></span> Fire hydrants</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><span class="icon-box"><i class="icon symbol-lights"></i></span> Lights</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><span class="icon-box"><i class="icon symbol-security-camera"></i></span> Security camera</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><span class="icon-box"><i class="icon symbol-fire-extinguisher"></i></span> Fire extinguisher</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><span class="icon-box"><i class="icon symbol-fire-hydrant"></i></span> Fire hydrants</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><span class="icon-box"><i class="icon symbol-lights"></i></span> Lights</a>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);"><span class="icon-box"><i class="icon symbol-security-camera"></i></span> Security camera</a>
+                            </li>
+                        </ul>
+                </div>
+                </div>
+                </div>
+                <div class="tag-section">
+                    <div class="row tag-header margin-bottom-10">
+                    	<div class="col-md-8">
+                        	<h5>Photo/video</h5>
+                        </div>
+                        <div class="col-md-4">
+                        	<!-- <div class="dropdown pull-right">
+                            	<button type="button" role="button" class="btn btn-link dropdown-toggle custom-btn-link" id="add-photo-from" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon symbol-plus add-edit-icon"></i> Add</button>
+                                <ul class="dropdown-menu add-source-dropdown" role="menu" aria-labelledby="add-photo-from">
+                                    <li class="dropdown-header">Add from</li>
+                                    <li><a href="javascript:void(0);" role="button"><i class="icon symbol-computer"></i> Computer</a></li>
+                                    <li><a href="javascript:void(0);" role="button"><i class="icon symbol-skysite-gallery"></i> SKYSITE</a></li>
+                                </ul>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="photo-video-area margin-bottom-10" id="edit-photo">
+                        <div class="add-gallery-btn-container dropdown pull-left">
+                            <button type="button" class="btn dropdown-toggle add-gallery-btn" id="photo-more" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon symbol-add icon-2x text-medium-blue"></i></button>
+                            <ul class="dropdown-menu add-source-dropdown" role="menu" aria-labelledby="photo-more">
+                                <li class="dropdown-header">Add from</li>
+                                <li><a href="javascript:void(0);" role="button"><i class="icon symbol-computer"></i> Computer</a></li>
+                                <li><a href="javascript:void(0);" role="button" id="add-from-skysite"><i class="icon symbol-skysite-gallery"></i> SKYSITE</a></li>
+                            </ul>
+                        </div>
+                        <div class="picture-list pull-left">
+                            <ul class="tag-gallery-scroll">
+                                <li>
+                                    <div class="video-play"><i class="icon symbol-play icon-2x"></i></div>
+                                    <img tabindex="0" src="../theme/doc-tagging/sample-image/sample-pic1.jpg" alt="Picture of fire extinguisher">
+                                    <div class="gallery-more-option">
+                                        <div class="dropdown">
+                                            <button tabindex="0" type="button" role="button" class="btn btn-link dropdown-toggle custom-btn-link" id="photo-more" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon symbol-more"></i></button>
+                                            <ul class="dropdown-menu add-source-dropdown" role="menu" aria-labelledby="photo-more">
+                                                <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-skysite-gallery"></i> Add to SKYSITE</a></li>
+                                                <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-trash"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img tabindex="0" src="../theme/doc-tagging/sample-image/sample-pic1.jpg" alt="Picture of fire extinguisher2">
+                                    <div class="gallery-more-option">
+                                        <div class="dropdown">
+                                            <button tabindex="0" type="button" role="button" class="btn btn-link dropdown-toggle custom-btn-link" id="photo-more2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon symbol-more"></i></button>
+                                            <ul class="dropdown-menu add-source-dropdown" role="menu" aria-labelledby="photo-more2">
+                                                <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-skysite-gallery"></i> Add to SKYSITE</a></li>
+                                                <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-trash"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img tabindex="0" src="../theme/doc-tagging/sample-image/sample-pic1.jpg" alt="Picture of fire extinguisher3">
+                                    <div class="gallery-more-option">
+                                        <div class="dropdown">
+                                            <button type="button" role="button" class="btn btn-link dropdown-toggle custom-btn-link" id="photo-more3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon symbol-more"></i></button>
+                                            <ul class="dropdown-menu add-source-dropdown" role="menu" aria-labelledby="photo-more3">
+                                                <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-skysite-gallery"></i> Add to SKYSITE</a></li>
+                                                <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-trash"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img tabindex="0" src="../theme/doc-tagging/sample-image/sample-pic1.jpg" alt="Picture of fire extinguisher">
+                                    <div class="gallery-more-option">
+                                        <div class="dropdown">
+                                            <button tabindex="0" type="button" role="button" class="btn btn-link dropdown-toggle custom-btn-link" id="photo-more4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon symbol-more"></i></button>
+                                            <ul class="dropdown-menu add-source-dropdown" role="menu" aria-labelledby="photo-more4">
+                                                <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-skysite-gallery"></i> Add to SKYSITE</a></li>
+                                                <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-trash"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img tabindex="0" src="../theme/doc-tagging/sample-image/sample-pic1.jpg" alt="Picture of fire extinguisher2">
+                                    <div class="gallery-more-option">
+                                        <div class="dropdown">
+                                            <button tabindex="0" type="button" role="button" class="btn btn-link dropdown-toggle custom-btn-link" id="photo-more5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon symbol-more"></i></button>
+                                            <ul class="dropdown-menu add-source-dropdown" role="menu" aria-labelledby="photo-more5">
+                                                <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-skysite-gallery"></i> Add to SKYSITE</a></li>
+                                                <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-trash"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <img tabindex="0" src="../theme/doc-tagging/sample-image/sample-pic1.jpg" alt="Picture of fire extinguisher3">
+                                    <div class="gallery-more-option">
+                                        <div class="dropdown">
+                                            <button type="button" role="button" class="btn btn-link dropdown-toggle custom-btn-link" id="photo-more6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon symbol-more"></i></button>
+                                            <ul class="dropdown-menu add-source-dropdown" role="menu" aria-labelledby="photo-more6">
+                                                <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-skysite-gallery"></i> Add to SKYSITE</a></li>
+                                                <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-trash"></i> Remove</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                        <img tabindex="0" src="../theme/doc-tagging/sample-image/sample-pic1.jpg" alt="Picture of fire extinguisher">
+                                        <div class="gallery-more-option">
+                                            <div class="dropdown">
+                                                <button tabindex="0" type="button" role="button" class="btn btn-link dropdown-toggle custom-btn-link" id="photo-more7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon symbol-more"></i></button>
+                                                <ul class="dropdown-menu add-source-dropdown" role="menu" aria-labelledby="photo-more7">
+                                                    <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-skysite-gallery"></i> Add to SKYSITE</a></li>
+                                                    <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-trash"></i> Remove</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img tabindex="0" src="../theme/doc-tagging/sample-image/sample-pic1.jpg" alt="Picture of fire extinguisher2">
+                                        <div class="gallery-more-option">
+                                            <div class="dropdown">
+                                                <button tabindex="0" type="button" role="button" class="btn btn-link dropdown-toggle custom-btn-link" id="photo-more8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon symbol-more"></i></button>
+                                                <ul class="dropdown-menu add-source-dropdown" role="menu" aria-labelledby="photo-more8">
+                                                    <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-skysite-gallery"></i> Add to SKYSITE</a></li>
+                                                    <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-trash"></i> Remove</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <img tabindex="0" src="../theme/doc-tagging/sample-image/sample-pic1.jpg" alt="Picture of fire extinguisher3">
+                                        <div class="gallery-more-option">
+                                            <div class="dropdown">
+                                                <button type="button" role="button" class="btn btn-link dropdown-toggle custom-btn-link" id="photo-more9" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon symbol-more"></i></button>
+                                                <ul class="dropdown-menu add-source-dropdown" role="menu" aria-labelledby="photo-more9">
+                                                    <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-skysite-gallery"></i> Add to SKYSITE</a></li>
+                                                    <li><a href="javascript:void(0);" role="menuitem"><i class="icon symbol-trash"></i> Remove</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </li>
+                            </ul>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+
+                </div>
+                <div class="tag-section">
+                    <div class="row tag-header margin-bottom-10">
+                    	<div class="col-md-8">
+                        	<h5>Description</h5>
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                    </div>
+                    <!--<label class="visuallyhidden" for="partDescription">Part description</label>-->
+                    
+					<textarea class="form-control custom-textarea margin-bottom-20" aria-label="Part description" contenteditable="true" aria-multiline="true" placeholder="Description"></textarea>
+                </div>
+                <div class="tag-section">
+                    <div class="row tag-header margin-bottom-10">
+                    	<div class="col-md-8">
+                        	<h5>Equipment</h5>
+                        </div>
+                        <div class="col-md-4">
+                        	<div class=" pull-right">
+                            	<button type="button" role="button" class="btn btn-link add-equipment-btn custom-btn-link"><i class="icon symbol-plus add-edit-icon"></i>Add/Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tag-section">
+                    <div class="row tag-header margin-bottom-10">
+                        <div class="col-md-8">
+                            <h5>Reports</h5>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="pull-right">
+                                <button type="button" role="button" class="btn btn-link custom-btn-link add-reports"><i class="icon symbol-plus custom-btn-link add-edit-icon"></i>Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tag-section">
+                    <div class="row tag-header margin-bottom-10">
+                    	<div class="col-md-8">
+                        	<h5>Linked files</h5>
+                        </div>
+                        <div class="col-md-4">
+                        	<div class=" pull-right">
+                            	<button type="button" role="button" class="btn btn-link custom-btn-link add-linked-files"><i class="icon symbol-plus custom-btn-link add-edit-icon"></i>Add</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tag-section no-border">
+                    <div class="row tag-header margin-bottom-10">
+                    	<div class="col-md-8">
+                        	<h5>Notes</h5>
+                        </div>
+                    </div>
+                    <textarea class="form-control custom-textarea" contenteditable="true" aria-multiline="true" aria-label="Notes" placeholder="Enter notes"></textarea>
+                </div>
+            </div>
+            <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+            <button type="button" class="btn btn-primary">Create</button>
+            </div>
+        </div>
+    </div>
+</div>

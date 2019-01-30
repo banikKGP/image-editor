@@ -1,0 +1,188 @@
+.icon {
+    display: inline-block;
+    vertical-align: -10%;
+}
+.icon-lg {
+    font-size: 1.33333em;
+    line-height: 1em;
+    vertical-align: -15%;
+}
+.icon-2x {
+    font-size: 2em;
+}
+.icon-3x {
+    font-size: 3em;
+}
+.icon-4x {
+    font-size: 4em;
+}
+.icon-5x {
+    font-size: 5em;
+}
+.icon-6x {
+    font-size: 6em;
+}
+.icon-7x {
+    font-size: 7em;
+}
+.icon-8x {
+    font-size: 8em;
+}
+.icon-9x {
+    font-size: 9em;
+}
+.icon-10x {
+    font-size: 10em;
+}
+.icon-fw {
+    text-align: center;
+    width: 1.28571em;
+}
+.icon-ul {
+    list-style-type: none;
+    margin-left: 2.14286em;
+    padding-left: 0;
+    & > li {
+        position: relative;
+    }
+}
+.icon-li {
+    left: -2.14286em;
+    position: absolute;
+    text-align: center;
+    top: 0.142857em;
+    width: 2.14286em;
+    &.icon-lg {
+        left: -1.85714em;
+    }
+}
+.icon-border {
+    border: 0.08em solid #EEEEEE;
+    border-radius: 0.1em;
+    padding: 0.2em 0.25em 0.15em;
+}
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: left;
+}
+.icon.pull-left {
+    margin-right: 0.3em;
+}
+.icon.pull-right {
+    margin-left: 0.3em;
+}
+.icon-spin {
+    animation: 2s linear 0s normal none infinite spin;
+}
+@-moz-keyframes spin {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(359deg);
+}
+}
+@-moz-keyframes spin {
+0% {
+    transform: rotate(0deg);
+}
+100% {
+    transform: rotate(359deg);
+}
+}
+.icon-stack {
+    display: inline-block;
+    height: 2em;
+    line-height: 2em;
+    position: relative;
+    vertical-align: middle;
+    width: 2em;
+}
+.icon-stack-1x, .icon-stack-2x {
+    left: 0;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+.icon-stack-1x {
+    line-height: inherit;
+}
+.icon-stack-2x {
+    font-size: 2em;
+}
+.icon-inverse {
+    color: #FFFFFF;
+}
+
+/* to make the font-icon rotate 90 degree */
+.icon-rotate-90 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1);
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+/* to make the font-icon rotate 180 degree */
+.icon-rotate-180 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2);
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+/* to make the font-icon rotate 270 degree */
+.icon-rotate-270 {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+
+  -webkit-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+}
+
+/* to make the font-icon flip horizontal */
+.icon-flip-horizontal {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1);
+  -webkit-transform: scale(-1, 1);
+  -ms-transform: scale(-1, 1);
+  transform: scale(-1, 1);
+}
+/* to make the font-icon flip vertical */
+.icon-flip-vertical {
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1);
+  -webkit-transform: scale(1, -1);
+  -ms-transform: scale(1, -1);
+  transform: scale(1, -1);
+}
+:root .icon-rotate-90,
+:root .icon-rotate-180,
+:root .icon-rotate-270,
+:root .icon-flip-horizontal,
+:root .icon-flip-vertical {
+  filter: none;
+}
+
+/* makes the font-icon with pulse animation*/
+.icon-pulse {
+  -webkit-animation: icon-spin 1s infinite steps(8);
+  animation: icon-spin 1s infinite steps(8);
+}
+@-webkit-keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}
+@keyframes icon-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg);
+  }
+}

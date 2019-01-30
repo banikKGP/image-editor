@@ -1,0 +1,28 @@
+.asset-btn-primary {
+    color: $white;
+    background-color: $blue;
+    border-color: $blue;
+    border-radius: 4px;
+    @include transition-property(border-color background-color);
+    @include transition-duration(.3s);
+    @include transition-timing-function(ease-in-out);
+    &:hover, &:focus {
+        color: $white;
+        background-color: $medium-blue;
+        border-color: $medium-blue;
+    }
+}
+.asset-btn-default {
+    color: $dark-grey;
+    background-color: $tinny-grey;
+    border-color: $tinny-grey;
+    border-radius: 4px;
+    @include transition-property(border-color background-color);
+    @include transition-duration(.3s);
+    @include transition-timing-function(ease-in-out);
+    &:hover, &:focus {
+        color: $dark-grey;
+        background-color: $light-grey;
+        border-color: $light-grey;
+    }
+}
